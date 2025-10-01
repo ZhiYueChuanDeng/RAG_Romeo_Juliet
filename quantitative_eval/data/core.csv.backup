@@ -1,0 +1,215 @@
+core_id,core_text,ACT_No,Scene,core_Q_id,core_Q,core_A_id,core_A,relevance_judgment
+C101,"Romeo: ""But soft! What light through yonder window breaks? It is the east, and Juliet is the sun!""",II,II,Q101,"What metaphor does Romeo use to describe Juliet when he sees her at the window in Act II, Scene II?",A101,"Romeo uses the metaphor of the sun (""Juliet is the sun"") to describe Juliet.",2
+C102,"Juliet: ""O Romeo, Romeo! Wherefore art thou Romeo? Deny thy father and refuse thy name!""",II,II,Q102,"What request does Juliet make to Romeo regarding his identity in Act II, Scene II?",A102,Juliet requests that Romeo deny his father and refuse his family name (Montague).,2
+C103,"Friar Laurence: ""In one respect I'll thy assistant be; For this alliance may so happy prove, To turn your households' rancour to pure love.""",II,III,Q103,"Why does Friar Laurence agree to help Romeo and Juliet marry in Act II, Scene III?",A103,Friar Laurence agrees because he hopes the marriage will turn the two households' hatred into pure love.,2
+C104,"Tybalt: ""Romeo, the love I bear thee can afford No better term than this,thou art a villain!""",III,I,Q104,"What insult does Tybalt hurl at Romeo in Act III, Scene I?",A104,Tybalt insults Romeo by calling him a villain.,2
+C105,"Mercutio: ""A plague o' both your houses! I am sped. Is he gone, and hath nothing?""",III,I,Q105,"What curse does Mercutio utter before dying in Act III, Scene I?",A105,"Mercutio curses both the Montague and Capulet houses: ""A plague o' both your houses!""",2
+C106,"Romeo: ""And fire-eyed fury be my conduct now! Now, Tybalt, take the 'villain' back again That late thou gavest me!""",III,I,Q106,"What emotion drives Romeo to seek revenge on Tybalt in Act III, Scene I?",A106,Romeo is driven by fire-eyed fury (anger) after Tybalt kills Mercutio.,2
+C107,"Prince: ""And for that offence, Immediately we do exile him hence.""",III,I,Q107,"What punishment does the Prince give Romeo for killing Tybalt in Act III, Scene I?",A107,The Prince exiles Romeo from Verona immediately.,2
+C108,"Juliet: ""O God! O nurse, how shall this be prevented? My husband is on earth, my faith in heaven; How shall that faith return again to earth, Unless that husband send it me from heaven?""",III,II,Q108,"What distress does Juliet express to the Nurse after learning of Romeo's exile in Act III, Scene II?",A108,Juliet is distressed that her husband (Romeo) is exiled and fears her marital faith (vows) can)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', t return to earth unless Romeo sends it.,2
+C109,"Romeo: ""Ha, banishment! Be merciful, say 'death'; For exile hath more terror in his look, Much more than death.""",III,III,Q109,"How does Romeo view banishment compared to death in Act III, Scene III?",A109,"Romeo thinks banishment is more terrifying than death (""exile hath more terror in his look, Much more than death"")",2
+C110,"Friar Laurence: ""Go, get thee to thy love, as was decreed, Ascend her chamber, hence and comfort her; But look thou stay not till the watch be set.""",III,III,Q110,"What advice does Friar Laurence give Romeo about seeing Juliet before his exile in Act III, Scene III?",A110,Friar Laurence advises Romeo to go to Juliet)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s chamber to comfort her but not stay until the watch is set.,2
+C111,"Capulet: ""I will be deaf to pleading and excuses; Nor tears nor prayers shall purchase out abuses: Therefore use none. Let Romeo hence in haste.""",III,IV,Q111,"How does Capulet respond to the idea of pleading for Romeo's return in Act III, Scene IV?",A111,"Capulet refuses to hear pleading or excuses, saying tears and prayers won)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', t fix the wrong, so Romeo must leave in haste.",2
+C112,"Juliet: ""My only love sprung from my only hate! Too early seen unknown, and known too late!""",I,V,Q112,"What contradiction does Juliet express about her love for Romeo in Act I, Scene V?",A112,"Juliet says her only love (Romeo) comes from her only hate (the Montague family), calling it ""too early seen unknown, and known too late.""",2
+C113,"Mercutio: ""If love be rough with you, be rough with love; Prick love for pricking, and you beat love down.""",I,IV,Q113,"What advice does Mercutio give Romeo about dealing with difficult love in Act I, Scene IV?",A113,"Mercutio advises Romeo to be rough with love if love is rough with him: ""Prick love for pricking, and you beat love down.""",2
+C114,"Friar Laurence: ""These violent delights have violent ends And in their triumph die, like fire and powder, Which, as they kiss, consume.""",II,VI,Q114,"What warning does Friar Laurence give about intense, hasty love in Act II, Scene VI?",A114,"Friar Laurence warns that violent delights have violent ends, comparing them to fire and powder that consume when they kiss.",2
+C115,"Tybalt: ""I will withdraw, but this intrusion shall, Now seeming sweet, convert to bitt'rest gall.""",I,V,Q115,"What does Tybalt vow after being stopped from fighting Romeo at the Capulet feast in Act I, Scene V?",A115,"Tybalt vows that Romeo)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s intrusion, which now seems sweet, will turn to the bitterest gall (hatred/harm).",2
+C116,"Lady Montague: ""O, where is Romeo? Saw you him to-day? Right glad I am he was not at this fray.""",I,I,Q116,"What relief does Lady Montague express about Romeo in Act I, Scene I?",A116,Lady Montague is relieved that Romeo was not present at the fray (fight) between the Montagues and Capulets.,2
+C117,"Benvolio: ""Here were the servants of your adversary And yours, close fighting ere I did approach.""",I,I,Q117,"Who does Benvolio say was fighting when he arrived on the scene in Act I, Scene I?",A117,Benvolio says the servants of Montague (his master) and Capulet (the adversary) were close fighting.,2
+C118,"Juliet: ""Tomorrow will I send thee to my lord and father, Where thou shalt know his mind, I will send to thee.""",II,II,Q118,"What plan does Juliet make to share her father's thoughts with Romeo in Act II, Scene II?",A118,Juliet plans to send someone to her father the next day to learn his mind and then send that information to Romeo.,2
+C119,"Romeo: ""With loves light wings did I o'erperch these walls; For stony limits cannot hold love out.""",II,II,Q119,"How does Romeo say he was able to get over the Capulet walls to see Juliet in Act II, Scene II?",A119,"Romeo says he used love)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s light wings to overperch the walls, as stony limits can)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', t hold love out.",2
+C120,"Friar Laurence: ""Thou hast amaz'd me. By my holy order, I thought thy disposition better temper'd.""",III,III,Q120,"What surprise does Friar Laurence express about Romeo's reaction to banishment in Act III, Scene III?",A120,"Friar Laurence is surprised by Romeo)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s overly emotional reaction, saying he thought Romeo had a better-tempered disposition.",2
+C121,"Capulet: ""Monday! ha, ha! Well, Wednesday is too soon, Thursday let it be.""",III,IV,Q121,"When does Capulet decide to hold Juliet's wedding to Paris in Act III, Scene IV?",A121,Capulet decides to hold Juliet)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s wedding to Paris on Thursday (after rejecting Monday and Wednesday as too soon).,2
+C122,"Juliet: ""What if it be a poison, which the friar Subtly hath minister'd to have me dead, Lest in this marriage he should be dishonour'd?""",IV,III,Q122,"What fear does Juliet have about the potion Friar Laurence gave her in Act IV, Scene III?",A122,"Juliet fears the potion is poison that Friar Laurence gave her to kill her, to avoid dishonor from her second marriage.",2
+C123,"Nurse: ""O woe! O woeful, woeful, woeful day! Most lamentable day, most woeful day, That ever, ever, I did yet behold!""",IV,V,Q123,"What tone does the Nurse use to describe the day she finds Juliet ""dead"" in Act IV, Scene V?",A123,"The Nurse uses a woeful, lamentable tone, calling it the most woeful day she has ever seen.",2
+C124,"Capulet: ""Death lies on her like an untimely frost Upon the sweetest flower of all the field.""",IV,V,Q124,"What metaphor does Capulet use to describe Juliet's ""death"" in Act IV, Scene V?",A124,"Capulet uses the metaphor of an untimely frost on the sweetest flower to describe Juliet)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s ""death""",2
+C125,"Friar Laurence: ""Shes not well married that lives married long; But shes best married that dies married young.""",IV,V,Q125,"What grim comment does Friar Laurence make about Juliet's ""married life"" after her ""death"" in Act IV, Scene V?",A125,"Friar Laurence comments that those who live long married lives aren)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', t well married, but Juliet (who died young married) is best married.",2
+C126,"Romeo: ""I do beseech thee, sir, have patience: I will not stay a jot longer.""",V,I,Q126,"What request does Romeo make to the apothecary when buying poison in Act V, Scene I?",A126,Romeo requests the apothecary to have patience and says he won)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', t stay a jot longer (to get the poison quickly).,2
+C127,"Romeo: ""Thy drugs are quick. Thus with a kiss I die.""",V,III,Q127,"What are Romeo's final words before dying next to Juliet in Act V, Scene III?",A127,"Romeo)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s final words are: ""Thy drugs are quick. Thus with a kiss I die.""",2
+C128,"Juliet: ""O happy dagger! This is thy sheath; there rust, and let me die.""",V,III,Q128,"What does Juliet call the dagger before using it to kill herself in Act V, Scene V?",A128,"Juliet calls the dagger ""happy dagger"" before using it to die.",2
+C129,"Prince: ""See what a scourge is laid upon your hate, That heaven finds means to kill your joys with love!""",V,III,Q129,"What does the Prince say is the consequence of the Montagues and Capulets' hatred in Act V, Scene III?",A129,"The Prince says heaven used their love (Romeo and Juliet) to kill their joys, laying a scourge (punishment) on their hate.",2
+C130,"Montague: ""But I can give thee more; For I will raise her statue in pure gold; That while Verona by that name is known, There shall no figure at such rate be set As that of true and faithful Juliet.""",V,III,Q130,"What promise does Montague make to honor Juliet after her death in Act V, Scene III?",A130,"Montague promises to raise a pure gold statue of Juliet, ensuring no figure in Verona is as highly honored as she.",2
+C201,"Tybalt: ""What, drawn, and talk of peace! I hate the word As I hate hell, all Montagues, and thee"" (I, I); Tybalt: ""Romeo, the love I bear thee can afford No better term than this,thou art a villain!"" (III, I); Tybalt: ""I will withdraw, but this intrusion shall, Now seeming sweet, convert to bitt'rest gall"" (I, V)",I&III,I&V,Q201,"How does Tybalt's language and attitude toward Romeo and the Montague family develop across Act I, Scene I; Act I, Scene V; and Act III, Scene I?",A201,"In Act I, Scene I, Tybalt equates hatred for ""peace"" with hatred for Montagues and Benvolio; in Act I, Scene V, he vows Romeo)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s ""sweet"" intrusion will turn to bitter gall (foreshadowing harm); in Act III, Scene I, he openly insults Romeo as a ""villain,"" escalating from general Montague hatred to direct personal aggression, showing growing hostility.",1
+C202,"Friar Laurence: ""In one respect I'll thy assistant be; For this alliance may so happy prove, To turn your households' rancour to pure love"" (II, III); Friar Laurence: ""These violent delights have violent ends And in their triumph die, like fire and powder"" (II, VI); Friar Laurence: ""Go, get thee to thy love, as was decreed, Ascend her chamber, hence and comfort her"" (III, III)",II&III,III&VI,Q202,"What role does Friar Laurence play in Romeo and Juliet's relationship, and how do his words in Act II, Scene III; Act II, Scene VI; and Act III, Scene III reflect his intentions and concerns?",A202,"Friar Laurence acts as a helper and advisor: in Act II, Scene III, he agrees to marry them to end the families)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®',  hatred; in Act II, Scene VI, he warns of ""violent delights"" to caution against hasty passion; in Act III, Scene III, he guides Romeo to comfort Juliet before exile. His words show his dual intentions: fostering peace (via marriage) and mitigating the risks of their intense love (via warnings and practical advice).",1
+C203,"Juliet: ""O Romeo, Romeo! Wherefore art thou Romeo? Deny thy father and refuse thy name!"" (II, II); Juliet: ""My only love sprung from my only hate! Too early seen unknown, and known too late!"" (I, V); Juliet: ""What if it be a poison, which the friar Subtly hath minister'd to have me dead"" (IV, III)",I&II&IV,II&V&III,Q203,"How does Juliet's attitude toward her family, love for Romeo, and willingness to take risks change across Act I, Scene V; Act II, Scene II; and Act IV, Scene III?",A203,"In Act I, Scene V, Juliet grieves that her love (Romeo) comes from her family)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s hate, showing conflict; in Act II, Scene II, she urges Romeo to reject his family name, prioritizing love over lineage; in Act IV, Scene III, she fears the friar)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s potion but still drinks it to avoid marrying Paris and reunite with Romeo, showing increased willingness to risk death for her love, even as doubt lingers.",1
+C204,"Prince: ""Three civil brawls, bred of an airy word, By thee, old Capulet, and Montague"" (I, I); Prince: ""And for that offence, Immediately we do exile him hence"" (III, I); Prince: ""See what a scourge is laid upon your hate, That heaven finds means to kill your joys with love!"" (V, III)",I&III&V,I&I&III,Q204,"How does the Prince's response to the Montague-Capulet conflict evolve from Act I, Scene I; Act III, Scene I; to Act V, Scene III?",A204,"In Act I, Scene I, the Prince criticizes the families for brawls ""bred of an airy word"" (empty disputes) and warns of punishment; in Act III, Scene I, he enforces exile (a severe penalty) for Romeo)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s killing of Tybalt, showing stricter action; in Act V, Scene III, he blames the families)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®',  hate for Romeo and Juliet)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s deaths, framing the tragedy as a ""scourge"" (divine punishment) for their ongoing feud, shifting from warning to condemning the consequences of their hatred.",1
+C205,"Romeo: ""But soft! What light through yonder window breaks? It is the east, and Juliet is the sun!"" (II, II); Romeo: ""Ha, banishment! Be merciful, say 'death'; For exile hath more terror in his look"" (III, III); Romeo: ""Thy drugs are quick. Thus with a kiss I die"" (V, III)",II&III&V,II&III&III,Q205,"How does Romeo's emotional state and view of life change from his balcony declaration in Act II, Scene II; his reaction to banishment in Act III, Scene III; to his final moments in Act V, Scene III?",A205,"In Act II, Scene II, Romeo is euphoric, idealizing Juliet as the sun (pure, life-giving love); in Act III, Scene III, he is despairing, seeing banishment as worse than death (losing Juliet feels like losing life); in Act V, Scene III, he is resigned to death, choosing poison to join Juliet, his love now tied to annihilation—shifting from joyful idealism to hopeless devotion.",1
+C206,"Capulet: ""I will be deaf to pleading and excuses; Nor tears nor prayers shall purchase out abuses"" (III, IV); Capulet: ""Monday! ha, ha! Well, Wednesday is too soon, Thursday let it be"" (III, IV); Capulet: ""Death lies on her like an untimely frost Upon the sweetest flower of all the field"" (IV, V)",III&IV,IV&IV&V,Q206,"How does Capulet's attitude toward Juliet shift from arranging her marriage in Act III, Scene IV to reacting to her ""death"" in Act IV, Scene V?",A206,"In Act III, Scene IV, Capulet is authoritarian: he dismisses pleading, rushes to set Juliet)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s wedding to Paris (choosing Thursday), and prioritizes family reputation over her wishes; in Act IV, Scene V, he is grief-stricken, using a tender metaphor (untimely frost on a flower) to mourn her ""death,"" showing a shift from rigid control to paternal sorrow as he confronts the loss of his daughter.",1
+C207,"Mercutio: ""If love be rough with you, be rough with love; Prick love for pricking, and you beat love down"" (I, IV); Mercutio: ""A plague o' both your houses! I am sped"" (III, I); Benvolio: ""Here were the servants of your adversary And yours, close fighting ere I did approach"" (I, I)",I&III,IV&I&I,Q207,"How do Mercutio's words in Act I, Scene IV and Act III, Scene I, combined with Benvolio's observation in Act I, Scene I, highlight the impact of the Montague-Capulet feud on innocent characters?",A207,"Benvolio)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s Act I, Scene I observation shows the feud starts with lowly servants (innocents drawn into conflict); in Act I, Scene IV, Mercutio jokes about love to distract Romeo from feud-related stress, acting as a neutral, lighthearted figure; in Act III, Scene I, Mercutio is killed by Tybalt (a feud casualty) and curses both houses, revealing how the feud destroys innocent lives—from servants to Romeo)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s closest friend—who have no direct stake in the hatred.",1
+C208,"Juliet: ""With loves light wings did I o'erperch these walls; For stony limits cannot hold love out"" (II, II); Romeo: ""With loves light wings did I o'erperch these walls; For stony limits cannot hold love out"" (II, II); Juliet: ""O happy dagger! This is thy sheath; there rust, and let me die"" (V, III)",II&V,II&III,Q208,"How do the metaphors of ""love's wings"" (Act II, Scene II) and ""happy dagger"" (Act V, Scene III) reflect the transformation of Juliet's love for Romeo from hope to despair?",A208,"In Act II, Scene II, Juliet)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s ""love)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s wings"" metaphor frames love as a force that transcends physical barriers (Capulet walls), symbolizing hope and freedom from the feud; in Act V, Scene III, the ""happy dagger"" metaphor redefines a weapon (instrument of death) as a source of relief, showing her love has shifted from hopeful transcendence to desperate union—death is the only way to stay with Romeo, as the feud has destroyed all other options.",1
+C209,"Friar Laurence: ""Thou hast amaz'd me. By my holy order, I thought thy disposition better temper'd"" (III, III); Friar Laurence: ""What if it be a poison, which the friar Subtly hath minister'd to have me dead"" (IV, III, Juliets fear); Friar Laurence: ""Shes not well married that lives married long; But shes best married that dies married young"" (IV, V)",III&IV,III&III&V,Q209,"How do Friar Laurence's criticism of Romeo (Act III, Scene III), Juliet's fear of his potion (Act IV, Scene III), and his comment on Juliet's ""death"" (Act IV, Scene V) reveal tensions in his role as a spiritual advisor?",A209,"Friar Laurence)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s Act III, Scene III criticism shows he expects emotional restraint (spiritual virtue) but fails to anticipate Romeo)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s despair; Juliet)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s Act IV, Scene III fear reflects doubt in his trustworthiness (a failure of his advisory role); his Act IV, Scene V comment (glorifying Juliet)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s ""young death"") contradicts spiritual values of preserving life, revealing a tension: he prioritizes ending the feud over individual well-being, leading to morally questionable choices (hiding the",1
+C210,"Montague: ""But I can give thee more; For I will raise her statue in pure gold"" (V, III); Capulet: ""As rich shall Romeos by his ladys lie, Poor sacrifices of our enmity!"" (V, III); Prince: ""See what a scourge is laid upon your hate, That heaven finds means to kill your joys with love!"" (V, III)",V,III,Q210,"How do Montague's, Capulet's, and the Prince's words in Act V, Scene III reflect the resolution of the Montague-Capulet feud, and what does this resolution reveal about the cost of their hatred?",A210,"Montague and Capulet vow to raise gold statues of each other)
+            fixes_applied.append(f"¡¯ → ' ({count}次)")
+
+        # Left single quotation mark
+        if '¡®' in content:
+            count = content.count('¡®')
+            content = content.replace('¡®', s children (Romeo and Juliet), symbolizing reconciliation; the Prince frames the statues as ""poor sacrifices"" to their enmity, emphasizing the cost: their hatred killed the only things they loved (their children). The resolution shows the feud ends only after tragedy—reconciliation is forced by loss, not choice—revealing that hatred destroys more than it preserves.",1

@@ -1,0 +1,201 @@
+question,actual,expected
+"Which metaphor does Romeo employ to characterize Juliet upon seeing her at the window in Act II, Scene II?",Romeo_Metaphor_Juliet,Romeo_Metaphor_Juliet
+"What figurative comparison does Romeo use to describe Juliet when he spots her at the window in Act II, Scene II?",Romeo_Metaphor_Juliet,Romeo_Metaphor_Juliet
+"In Act II, Scene II, what metaphor does Romeo use to portray Juliet as he sees her at the window?",Romeo_Metaphor_Juliet,Romeo_Metaphor_Juliet
+"When viewing Juliet at the window in Act II, Scene II, which metaphor does Romeo use to describe her?",Romeo_Metaphor_Juliet,Romeo_Metaphor_Juliet
+"In Act II, Scene II, what does Juliet ask of Romeo concerning his identity?",Juliet_Name_Request,Juliet_Name_Request
+"What inquiry does Juliet make to Romeo about who he is in Act II, Scene II?",Juliet_Name_Request,Juliet_Name_Request
+"In Act II, Scene II, what request regarding his name does Juliet pose to Romeo?",Juliet_Name_Request,Juliet_Name_Request
+"What does Juliet demand to know from Romeo about his identity in Act II, Scene II?",Juliet_Name_Request,Juliet_Name_Request
+"In Act II, Scene III, why does Friar Laurence consent to assist Romeo and Juliet in marrying?",Friar_Marriage_Reason,Friar_Marriage_Reason
+"What motivates Friar Laurence to agree to help Romeo and Juliet wed in Act II, Scene III?",Friar_Marriage_Reason,Friar_Marriage_Reason
+"Why does Friar Laurence decide to aid Romeo and Juliet in their marriage in Act II, Scene III?",Friar_Marriage_Reason,Friar_Marriage_Reason
+"In Act II, Scene III, what reason prompts Friar Laurence to agree to help Romeo and Juliet get married?",Friar_Marriage_Reason,Friar_Marriage_Reason
+"In Act III, Scene I, what offensive remark does Tybalt direct at Romeo?",Tybalt_Insult_Romeo,Tybalt_Insult_Romeo
+"Which insult does Tybalt throw at Romeo in Act III, Scene I?",Tybalt_Insult_Romeo,Tybalt_Insult_Romeo
+"What disparaging term does Tybalt use against Romeo in Act III, Scene I?",Tybalt_Insult_Romeo,Tybalt_Insult_Romeo
+"In Act III, Scene I, what verbal abuse does Tybalt hurl at Romeo?",Tybalt_Insult_Romeo,Tybalt_Insult_Romeo
+"In Act III, Scene I, what imprecation does Mercutio speak before he dies?",Mercutio_Death_Curse,Mercutio_Death_Curse
+"Which curse does Mercutio pronounce as he is dying in Act III, Scene I?",Mercutio_Death_Curse,Mercutio_Death_Curse
+"What damnation does Mercutio utter in his final moments in Act III, Scene I?",Mercutio_Death_Curse,Mercutio_Death_Curse
+"In Act III, Scene I, what curse falls from Mercutio's lips before he dies?",Mercutio_Death_Curse,Mercutio_Death_Curse
+"In Act III, Scene I, which emotion compels Romeo to pursue revenge against Tybalt?",What_Friar_Question,What_Romeo_Question
+"What feeling motivates Romeo to seek vengeance on Tybalt in Act III, Scene I?",What_Romeo_Question,What_Romeo_Question
+"In Act III, Scene I, what emotion fuels Romeo's desire to retaliate against Tybalt?",What_Romeo_Question,What_Romeo_Question
+"What passion drives Romeo to take revenge on Tybalt in Act III, Scene I?",What_Juliet_Question,What_Romeo_Question
+"In Act III, Scene I, what penalty does the Prince impose on Romeo for killing Tybalt?",What_Prince_Question,What_Prince_Question
+"What sentence does the Prince deliver to Romeo for slaying Tybalt in Act III, Scene I?",What_Prince_Question,What_Prince_Question
+"In Act III, Scene I, what punishment is meted out to Romeo by the Prince for killing Tybalt?",What_Prince_Question,What_Prince_Question
+"What disciplinary action does the Prince give Romeo for killing Tybalt in Act III, Scene I?",What_Prince_Question,What_Prince_Question
+"In Act III, Scene II, what agony does Juliet voice to the Nurse following the news of Romeo's exile?",What_Juliet_Question,What_Juliet_Question
+"What suffering does Juliet reveal to the Nurse after discovering Romeo's banishment in Act III, Scene II?",What_Juliet_Question,What_Juliet_Question
+"In Act III, Scene II, what sorrow does Juliet confide in the Nurse upon learning of Romeo's exile?",What_Juliet_Question,What_Juliet_Question
+"What anguish does Juliet express to the Nurse after hearing of Romeo's banishment in Act III, Scene II?",What_Juliet_Question,What_Juliet_Question
+"In Act III, Scene III, how does Romeo compare banishment to death?",AMAZON.FallbackIntent,Romeo_Banishment_View
+"How does Romeo perceive banishment in relation to death in Act III, Scene III?",Romeo_Banishment_View,Romeo_Banishment_View
+"In Act III, Scene III, does Romeo consider banishment better or worse than death?",Romeo_Banishment_View,Romeo_Banishment_View
+"How does Romeo regard banishment versus death in Act III, Scene III?",Romeo_Banishment_View,Romeo_Banishment_View
+"In Act III, Scene III, what counsel does Friar Laurence offer Romeo regarding visiting Juliet before his exile?",General_Question,What_Friar_Question
+"What guidance does Friar Laurence give Romeo about meeting Juliet prior to his banishment in Act III, Scene III?",What_Friar_Question,What_Friar_Question
+"In Act III, Scene III, what advice does Friar Laurence provide Romeo on seeing Juliet before he is exiled?",What_Friar_Question,What_Friar_Question
+"What recommendation does Friar Laurence make to Romeo about visiting Juliet before his exile in Act III, Scene III?",What_Friar_Question,What_Friar_Question
+"In Act III, Scene IV, how does Capulet react to the proposal of begging for Romeo's return?",How_Capulet_Question,How_Capulet_Question
+"How does Capulet address the idea of advocating for Romeo's return in Act III, Scene IV?",How_Capulet_Question,How_Capulet_Question
+"What is Capulet's response to the suggestion of pleading for Romeo to come back in Act III, Scene IV?",How_Capulet_Question,How_Capulet_Question
+"In Act III, Scene IV, in what manner does Capulet react to the notion of pleading for Romeo's return?",How_Capulet_Question,How_Capulet_Question
+"In Act I, Scene V, which paradox does Juliet voice regarding her love for Romeo?",What_Juliet_Question,What_Juliet_Question
+"What inconsistency does Juliet articulate about her affection for Romeo in Act I, Scene V?",What_Juliet_Question,What_Juliet_Question
+"In Act I, Scene V, what contradiction in her love for Romeo does Juliet express?",What_Juliet_Question,What_Juliet_Question
+"Which contradiction about her love for Romeo does Juliet reveal in Act I, Scene V?",What_Juliet_Question,What_Juliet_Question
+"In Act I, Scene IV, what counsel does Mercutio offer Romeo on handling troublesome love?",What_Mercutio_Question,What_Mercutio_Question
+"What guidance does Mercutio provide Romeo about managing difficult love in Act I, Scene IV?",What_Mercutio_Question,What_Mercutio_Question
+"In Act I, Scene IV, what advice on dealing with challenging love does Mercutio give Romeo?",AMAZON.FallbackIntent,What_Mercutio_Question
+"What does Mercutio advise Romeo about confronting difficult love in Act I, Scene IV?",What_Mercutio_Question,What_Mercutio_Question
+"In Act II, Scene VI, what caution does Friar Laurence offer regarding passionate, impulsive love?",What_Friar_Question,What_Friar_Question
+"What admonition does Friar Laurence give about hasty, intense affection in Act II, Scene VI?",What_Friar_Question,What_Friar_Question
+"In Act II, Scene VI, what warning against intense and hasty love does Friar Laurence issue?",What_Friar_Question,What_Friar_Question
+"What does Friar Laurence warn about intense, hasty love in Act II, Scene VI?",What_Friar_Question,What_Friar_Question
+"After being prevented from dueling Romeo at the Capulet feast in Act I, Scene V, what does Tybalt swear?",What_Friar_Question,What_Tybalt_Question
+"What promise does Tybalt make after being halted from confronting Romeo at the Capulet feast in Act I, Scene V?",What_Tybalt_Question,What_Tybalt_Question
+"In Act I, Scene V, after being stopped from fighting Romeo at the feast, what does Tybalt vow?",What_Tybalt_Question,What_Tybalt_Question
+"Following his prevention from battling Romeo at the Capulet feast in Act I, Scene V, what does Tybalt pledge?",AMAZON.FallbackIntent,What_Tybalt_Question
+"In Act I, Scene I, what sense of relief does Lady Montague convey concerning Romeo?",What_Lady_Question,What_Lady_Question
+"What comfort does Lady Montague show about Romeo in Act I, Scene I?",What_Lady_Question,What_Lady_Question
+"In Act I, Scene I, what relief regarding Romeo does Lady Montague express?",What_Lady_Question,What_Lady_Question
+"What does Lady Montague reveal as a relief about Romeo in Act I, Scene I?",What_Lady_Question,What_Lady_Question
+"In Act I, Scene I, according to Benvolio, who was engaged in fighting when he arrived?",Who_Benvolio_Question,Who_Benvolio_Question
+"Benvolio states that who was fighting upon his arrival in Act I, Scene I?",What_Romeo_Question,Who_Benvolio_Question
+"In Act I, Scene I, who does Benvolio claim was fighting when he reached the scene?",Who_Benvolio_Question,Who_Benvolio_Question
+"When Benvolio arrived in Act I, Scene I, who did he say was fighting?",Who_Benvolio_Question,Who_Benvolio_Question
+"In Act II, Scene II, what scheme does Juliet devise to communicate her father's thoughts to Romeo?",What_Friar_Question,What_Juliet_Question
+"What arrangement does Juliet make to relay her father's feelings to Romeo in Act II, Scene II?",What_Juliet_Question,What_Juliet_Question
+"In Act II, Scene II, how does Juliet plan to share her father's thoughts with Romeo?",What_Juliet_Question,What_Juliet_Question
+"What plan does Juliet formulate to convey her father's thoughts to Romeo in Act II, Scene II?",What_Juliet_Question,What_Juliet_Question
+"In Act II, Scene II, how does Romeo claim he managed to climb over the Capulet walls to see Juliet?",How_Romeo_Question,How_Romeo_Question
+"What does Romeo say enabled him to scale the Capulet walls for Juliet in Act II, Scene II?",How_Romeo_Question,How_Romeo_Question
+"In Act II, Scene II, how does Romeo explain he got over the Capulet walls to meet Juliet?",How_Romeo_Question,How_Romeo_Question
+"How does Romeo state he crossed the Capulet walls to see Juliet in Act II, Scene II?",How_Romeo_Question,How_Romeo_Question
+"In Act III, Scene III, what astonishment does Friar Laurence show regarding Romeo's response to banishment?",What_Friar_Question,What_Friar_Question
+"What amazement does Friar Laurence express about Romeo's attitude toward banishment in Act III, Scene III?",General_Question,What_Friar_Question
+"In Act III, Scene III, what surprise does Friar Laurence reveal about Romeo's reaction to being banished?",What_Friar_Question,What_Friar_Question
+"What does Friar Laurence express as a surprise about Romeo's response to banishment in Act III, Scene III?",What_Friar_Question,What_Friar_Question
+"At what point in Act III, Scene IV does Capulet determine to schedule Juliet's marriage to Paris?",When_Capulet_Question,When_Capulet_Question
+"When exactly in Act III, Scene IV does Capulet resolve to organize Juliet's wedding with Paris?",When_Capulet_Question,When_Capulet_Question
+"In Act III, Scene IV, when does Capulet make the decision to hold Juliet's wedding to Paris?",When_Capulet_Question,When_Capulet_Question
+"During which moment in Act III, Scene IV does Capulet decide to arrange Juliet's marriage to Paris?",What_Juliet_Question,When_Capulet_Question
+"In Act IV, Scene III, what is Juliet's apprehension regarding the potion from Friar Laurence?",Juliet_Potion_Decision,Juliet_Potion_Decision
+"What worry does Juliet express about the potion Friar Laurence provided in Act IV, Scene III?",Juliet_Potion_Decision,Juliet_Potion_Decision
+"In Act IV, Scene III, what fear does Juliet harbor concerning the potion from the Friar?",Juliet_Potion_Decision,Juliet_Potion_Decision
+"What is Juliet's concern about the potion given by Friar Laurence in Act IV, Scene III?",Juliet_Potion_Decision,Juliet_Potion_Decision
+"In Act IV, Scene V, what tone does the Nurse employ when describing the day she discovers Juliet ""dead""?",What_Nurse_Question,What_Nurse_Question
+"What manner of speech does the Nurse use to recount the day she finds Juliet ""dead"" in Act IV, Scene V?",What_Nurse_Question,What_Nurse_Question
+"In Act IV, Scene V, what emotional tone does the Nurse adopt while describing the day of Juliet's ""death""?",AMAZON.FallbackIntent,What_Nurse_Question
+"What tone characterizes the Nurse's description of the day she finds Juliet ""dead"" in Act IV, Scene V?",What_Nurse_Question,What_Nurse_Question
+"In Act IV, Scene V, which metaphor does Capulet employ to depict Juliet's ""death""?",What_Capulet_Question,What_Capulet_Question
+"What figurative language does Capulet use to describe Juliet's ""death"" in Act IV, Scene V?",What_Capulet_Question,What_Capulet_Question
+"In Act IV, Scene V, what metaphor does Capulet use to characterize Juliet's ""death""?",What_Capulet_Question,What_Capulet_Question
+"Which metaphor does Capulet invoke when speaking of Juliet's ""death"" in Act IV, Scene V?",What_Capulet_Question,What_Capulet_Question
+"In Act IV, Scene V, what ominous remark does Friar Laurence make about Juliet's ""married life"" following her ""death""?",What_Friar_Question,What_Friar_Question
+"What dark comment does Friar Laurence offer regarding Juliet's ""married life"" after her ""death"" in Act IV, Scene V?",What_Friar_Question,What_Friar_Question
+"In Act IV, Scene V, what foreboding statement does Friar Laurence make about Juliet's ""married life"" post her ""death""?",What_Romeo_Question,What_Friar_Question
+"What grim observation does Friar Laurence make about Juliet's ""married life"" after her ""death"" in Act IV, Scene V?",General_Question,What_Friar_Question
+"In Act V, Scene I, what demand does Romeo present to the apothecary when purchasing poison?",What_Romeo_Question,What_Romeo_Question
+"What does Romeo ask of the apothecary while buying poison in Act V, Scene I?",What_Romeo_Question,What_Romeo_Question
+"In Act V, Scene I, what request does Romeo make to the apothecary during the purchase of poison?",What_Romeo_Question,What_Romeo_Question
+"What is Romeo's plea to the apothecary when he buys poison in Act V, Scene I?",General_Question,What_Romeo_Question
+"In Act V, Scene III, what are Romeo's last words before he dies beside Juliet?",What_Romeo_Question,What_Romeo_Question
+"What does Romeo utter as his final words before dying next to Juliet in Act V, Scene III?",AMAZON.FallbackIntent,What_Romeo_Question
+"In Act V, Scene III, which words serve as Romeo's last before he dies beside Juliet?",What_Romeo_Question,What_Romeo_Question
+"What are Romeo's concluding words prior to his death next to Juliet in Act V, Scene III?",What_Romeo_Question,What_Romeo_Question
+"In Act V, Scene V, what does Juliet name the dagger before she uses it to take her life?",What_Juliet_Question,What_Juliet_Question
+"What does Juliet refer to the dagger as before killing herself in Act V, Scene V?",What_Juliet_Question,What_Juliet_Question
+"In Act V, Scene V, how does Juliet address the dagger before using it to die?",What_Romeo_Question,What_Juliet_Question
+"What epithet does Juliet give the dagger before taking her life in Act V, Scene V?",What_Juliet_Question,What_Juliet_Question
+"In Act V, Scene III, what does the Prince state as the result of the Montagues and Capulets' hatred?",What_Prince_Question,What_Prince_Question
+"What consequence of the families' hatred does the Prince declare in Act V, Scene III?",What_Prince_Question,What_Prince_Question
+"In Act V, Scene III, which outcome of the Montague-Capulet hatred does the Prince mention?",What_Prince_Question,What_Prince_Question
+"What does the Prince claim is the result of the Montagues and Capulets' enmity in Act V, Scene III?",What_Prince_Question,What_Prince_Question
+"In Act V, Scene III, what vow does Montague make to honor Juliet following her death?",What_Friar_Question,What_Montague_Question
+"What pledge does Montague offer to commemorate Juliet after her death in Act V, Scene III?",General_Question,What_Montague_Question
+"In Act V, Scene III, what promise does Montague make to pay tribute to Juliet post her death?",What_Montague_Question,What_Montague_Question
+"What commitment does Montague make to honor Juliet after she dies in Act V, Scene III?",General_Question,What_Montague_Question
+"In what ways does Tybalt's linguistic style and disposition toward Romeo and the Montague clan evolve through Act I, Scene I; Act I, Scene V; and Act III, Scene I?",How_Tybalt_Question,How_Tybalt_Question
+"How does Tybalt's verbal expression and attitude toward Romeo and the Montague family progress across Act I, Scene I; Act I, Scene V; and Act III, Scene I?",What_Juliet_Question,How_Tybalt_Question
+"Across Act I, Scene I; Act I, Scene V; and Act III, Scene I, how does Tybalt's language and demeanor toward Romeo and the Montagues develop?",What_Friar_Question,How_Tybalt_Question
+"How do Tybalt's words and attitude toward Romeo and the Montague family transform through Act I, Scene I; Act I, Scene V; and Act III, Scene I?",General_Question,How_Tybalt_Question
+"What function does Friar Laurence serve in Romeo and Juliet's relationship, and how do his statements in Act II, Scene III; Act II, Scene VI; and Act III, Scene III demonstrate his motives and apprehensions?",What_Friar_Question,What_Friar_Question
+"In what capacity does Friar Laurence engage in Romeo and Juliet's relationship, and how do his words in Act II, Scene III; Act II, Scene VI; and Act III, Scene III reveal his purposes and worries?",What_Friar_Question,What_Friar_Question
+"What part does Friar Laurence play in Romeo and Juliet's bond, and how do his utterances in Act II, Scene III; Act II, Scene VI; and Act III, Scene III reflect his intentions and concerns?",What_Friar_Question,What_Friar_Question
+"How does Friar Laurence contribute to Romeo and Juliet's relationship, and how do his words in Act II, Scene III; Act II, Scene VI; and Act III, Scene III mirror his aims and misgivings?",What_Friar_Question,What_Friar_Question
+"Across Act I, Scene V; Act II, Scene II; and Act IV, Scene III, how does Juliet's stance toward her family, affection for Romeo, and readiness to take risks evolve?",What_Juliet_Question,How_Juliet_Question
+"How do Juliet's feelings toward her family, love for Romeo, and willingness to embrace danger shift through Act I, Scene V; Act II, Scene II; and Act IV, Scene III?",How_Juliet_Question,How_Juliet_Question
+"In what ways does Juliet's attitude toward her family, devotion to Romeo, and courage to take risks transform across Act I, Scene V; Act II, Scene II; and Act IV, Scene III?",How_Juliet_Question,How_Juliet_Question
+"Through Act I, Scene V; Act II, Scene II; and Act IV, Scene III, how does Juliet's perception of her family, love for Romeo, and willingness to risk change?",How_Juliet_Question,How_Juliet_Question
+"From Act I, Scene I; Act III, Scene I; to Act V, Scene III, how does the Prince's reaction to the Montague-Capulet feud develop?",How_Prince_Question,How_Prince_Question
+"How does the Prince's approach to the Montague-Capulet conflict progress from Act I, Scene I; Act III, Scene I; to Act V, Scene III?",How_Prince_Question,How_Prince_Question
+"In what ways does the Prince's response to the Montague-Capulet strife transform from Act I, Scene I; Act III, Scene I; to Act V, Scene III?",How_Prince_Question,How_Prince_Question
+"How does the Prince's handling of the Montague-Capulet conflict evolve through Act I, Scene I; Act III, Scene I; and Act V, Scene III?",How_Prince_Question,How_Prince_Question
+"From his balcony vow in Act II, Scene II; his response to exile in Act III, Scene III; to his last moments in Act V, Scene III, how does Romeo's emotional condition and perspective on life shift?",Romeo_Banishment_View,Romeo_Banishment_View
+"How do Romeo's emotional temperament and philosophy of life evolve from his balcony declaration in Act II, Scene II; his reaction to banishment in Act III, Scene III; to his final moments in Act V, Scene III?",Romeo_Banishment_View,Romeo_Banishment_View
+"In what ways does Romeo's emotional state and outlook on life transform from his balcony speech in Act II, Scene II; his response to exile in Act III, Scene III; to his death in Act V, Scene III?",What_Romeo_Question,Romeo_Banishment_View
+"From his balcony profession in Act II, Scene II; his reaction to being banished in Act III, Scene III; to his concluding moments in Act V, Scene III, how does Romeo's emotional mindset and view of life change?",Romeo_Banishment_View,Romeo_Banishment_View
+"From arranging her marriage in Act III, Scene IV to responding to her ""death"" in Act IV, Scene V, how does Capulet's demeanor toward Juliet change?",How_Capulet_Question,How_Capulet_Question
+"How does Capulet's stance toward Juliet evolve from planning her marriage in Act III, Scene IV to his reaction to her ""death"" in Act IV, Scene V?",How_Capulet_Question,How_Capulet_Question
+"In what ways does Capulet's attitude toward Juliet transform between arranging her wedding in Act III, Scene IV and his response to her ""death"" in Act IV, Scene V?",How_Capulet_Question,How_Capulet_Question
+"How does Capulet's perception of Juliet shift from organizing her marriage in Act III, Scene IV to his reaction to her supposed ""death"" in Act IV, Scene V?",How_Capulet_Question,How_Capulet_Question
+"By combining Mercutio's lines in Act I, Scene IV and Act III, Scene I with Benvolio's observation in Act I, Scene I, how does the impact of the Montague-Capulet feud on innocent characters become highlighted?",What_Friar_Question,How_Mercutio_Question
+"How do Mercutio's speeches in Act I, Scene IV and Act III, Scene I, along with Benvolio's comment in Act I, Scene I, accentuate the effect of the Montague-Capulet feud on innocent figures?",How_Mercutio_Question,How_Mercutio_Question
+"When Mercutio's words in Act I, Scene IV and Act III, Scene I are paired with Benvolio's observation in Act I, Scene I, how do they illuminate the impact of the Montague-Capulet feud on innocent characters?",How_Mercutio_Question,How_Mercutio_Question
+"Combining Mercutio's utterances in Act I, Scene IV and Act III, Scene I with Benvolio's remark in Act I, Scene I, how do they emphasize the effect of the Montague-Capulet feud on innocent beings?",How_Mercutio_Question,How_Mercutio_Question
+"How do the metaphors of ""love's wings"" (Act II, Scene II) and ""happy dagger"" (Act V, Scene III) mirror the shift in Juliet's love for Romeo from hope to despair?",How_Act_Question,How_Act_Question
+"In what ways do the ""love's wings"" (Act II, Scene II) and ""happy dagger"" (Act V, Scene III) metaphors demonstrate the transformation of Juliet's love for Romeo from optimism to despair?",How_Act_Question,How_Act_Question
+"How do the figurative expressions of ""love's wings"" (Act II, Scene II) and ""happy dagger"" (Act V, Scene III) reflect how Juliet's love for Romeo evolves from hope to despair?",How_Act_Question,How_Act_Question
+"The metaphors of ""love's wings"" (Act II, Scene II) and ""happy dagger"" (Act V, Scene III) 鈥?how do they illustrate the change in Juliet's love for Romeo from hope to despair?",How_Act_Question,How_Act_Question
+"How do Friar Laurence's critique of Romeo (Act III, Scene III), Juliet's apprehension about his potion (Act IV, Scene III), and his remark on Juliet's ""death"" (Act IV, Scene V) uncover conflicts in his role as a spiritual guide?",How_Friar_Question,How_Friar_Question
+"In what ways do Friar Laurence's reproach of Romeo (Act III, Scene III), Juliet's fear of his potion (Act IV, Scene III), and his comment on Juliet's ""death"" (Act IV, Scene V) highlight contradictions in his role as a spiritual advisor?",AMAZON.FallbackIntent,How_Friar_Question
+"How do Friar Laurence's censure of Romeo (Act III, Scene III), Juliet's dread of his potion (Act IV, Scene III), and his statement on Juliet's ""death"" (Act IV, Scene V) expose tensions within his role as a spiritual counselor?",How_Friar_Question,How_Friar_Question
+"The friar's criticism of Romeo (Act III, Scene III), Juliet's fear of his potion (Act IV, Scene III), and his comment on her ""death"" (Act IV, Scene V) 鈥?how do these reveal conflicts in his role as a spiritual advisor?",AMAZON.FallbackIntent,How_Friar_Question
+"In Act V, Scene III, how do the words of Montague, Capulet, and the Prince mirror the resolution of the Montague-Capulet feud, and what does this resolution disclose about the price of their hatred?",How_Montague_Question,How_Montague_Question
+"How do the speeches of Montague, Capulet, and the Prince in Act V, Scene III demonstrate the ending of the Montague-Capulet feud, and what does this resolution reveal about the cost of their enmity?",How_Montague_Question,How_Montague_Question
+"In Act V, Scene III, how do Montague's, Capulet's, and the Prince's words reflect the conclusion of the Montague-Capulet feud, and what does this resolution show about the cost of their hatred?",AMAZON.FallbackIntent,How_Montague_Question
+"The words of Montague, Capulet, and the Prince in Act V, Scene III 鈥?how do they reflect the resolution of the Montague-Capulet feud, and what does this resolution reveal about the price paid for their hatred?",How_Montague_Question,How_Montague_Question
+What alterations could occur in Romeo and Juliet's day-to-day existence if they chose to remain in hiding in Verona rather than Romeo facing exile?,How_Romeo_Question,How_Romeo_Question
+How would Romeo and Juliet's routine life differ had they concealed themselves within Verona instead of Romeo being banished?,How_Romeo_Question,How_Romeo_Question
+In what ways might Romeo and Juliet's daily experiences shift if they had stayed hidden in Verona rather than Romeo enduring exile?,How_Romeo_Question,How_Romeo_Question
+How could Romeo and Juliet's everyday life transform if they'd sought refuge in Verona instead of Romeo being forced into exile?,How_Romeo_Question,How_Romeo_Question
+What cultural and historical motivations might Shakespeare have had for portraying the Montagues and Capulets as feuding clans?,What_Shakespeare_Question,What_Shakespeare_Question
+Which historical and cultural factors likely influenced Shakespeare to depict the Montagues and Capulets as warring families?,What_Juliet_Question,What_Shakespeare_Question
+What cultural-historical rationales might Shakespeare have had for creating the Montague-Capulet feud as feuding households?,What_Friar_Question,What_Shakespeare_Question
+How might Shakespeare's cultural and historical context have inspired him to craft the Montagues and Capulets as feuding lineages?,What_Shakespeare_Question,What_Shakespeare_Question
+In what ways do contemporary theatrical interpretations typically depict Mercutio's character versus the original play?,How_Mercutio_Question,How_Mercutio_Question
+How do modern stage productions commonly represent Mercutio's personality in contrast to the original text?,How_Mercutio_Question,How_Mercutio_Question
+"Compared to the original play, how do modern theatrical adaptations generally characterize Mercutio's temperament?",How_Mercutio_Question,How_Mercutio_Question
+How does Mercutio's personality tend to be portrayed in modern stage renditions relative to Shakespeare's original depiction?,How_Mercutio_Question,How_Mercutio_Question
+How might Romeo and Juliet's survival influence the dynamic between their servants (such as Sampson and Gregory)?,General_Question,What_Romeo_Question
+"What effect would the couple's survival have on the relationship of their servants, including Sampson and Gregory?",What_Romeo_Question,What_Romeo_Question
+How could Romeo and Juliet's continued lives alter the bond between servants like Sampson and Gregory?,What_Romeo_Question,What_Romeo_Question
+"What influence would the lovers' survival exert on the relationship between their servants, such as Sampson and Gregory?",What_Romeo_Question,What_Romeo_Question
+"Why does Shakespeare employ numerous natural metaphors (like sun, flower, frost) to portray Juliet's looks and destiny?",Why_Shakespeare_Question,Why_Shakespeare_Question
+"What is Shakespeare's purpose in using abundant nature-inspired metaphors (such as sun, flower, frost) to depict Juliet's appearance and fate?",Why_Shakespeare_Question,Why_Shakespeare_Question
+"Why does Shakespeare rely heavily on metaphors from nature (e.g., sun, flower, frost) when describing Juliet's appearance and fate?",Why_Shakespeare_Question,Why_Shakespeare_Question
+"What motivates Shakespeare to use so many natural metaphors (like sun, flower, frost) in characterizing Juliet's looks and destiny?",What_Romeo_Question,Why_Shakespeare_Question
+In what ways would Paris's life transform had he uncovered Juliet's pretend death before Romeo reached the tomb?,What_Juliet_Question,How_Paris_Question
+How might Paris's existence differ if he'd discovered Juliet's simulated death prior to Romeo arriving at the tomb?,How_Paris_Question,How_Paris_Question
+What changes would occur in Paris's life if he had found out about Juliet's fake death before Romeo came to the tomb?,How_Paris_Question,How_Paris_Question
+How could Paris's life be altered if he'd detected Juliet's false death before Romeo arrived at the burial site?,How_Paris_Question,How_Paris_Question
+"Through Juliet's decisions, what statement does the play make regarding 'family loyalty versus personal happiness'?",What_Friar_Question,What_Juliet_Question
+What theme of 'family loyalty against personal happiness' does the play communicate via Juliet's choices?,What_Juliet_Question,What_Juliet_Question
+"Via Juliet's actions, what message does the play send about the conflict between family loyalty and personal happiness?",What_Juliet_Question,What_Juliet_Question
+What does the play convey about 'family loyalty vs. personal happiness' through the choices Juliet makes?,AMAZON.FallbackIntent,What_Juliet_Question
+In what ways does the Montague-Capulet feud parallel actual family feuds during Shakespeare's era?,How_Montagues_Question,How_Montagues_Question
+How does the conflict between the Montagues and Capulets compare to real-life clan feuds in Shakespeare's time?,How_Montagues_Question,How_Montagues_Question
+"Compared to historical family feuds in Shakespeare's period, how does the Montague-Capulet feud align?",How_Montagues_Question,How_Montagues_Question
+How does the feud between the two families mirror real-world family feuds from Shakespeare's contemporary era?,How_Montagues_Question,How_Montagues_Question
+What sort of counsel might Friar Laurence offer Romeo and Juliet if they'd sought his advice on long-term marriage?,General_Question,What_Friar_Question
+"If Romeo and Juliet had asked Friar Laurence about enduring marriage, what advice would he provide?",What_Friar_Question,What_Friar_Question
+What guidance would Friar Laurence give regarding lifelong marriage if Romeo and Juliet had consulted him?,What_Friar_Question,What_Friar_Question
+"Had Romeo and Juliet asked Friar Laurence about long-term marriage, what advice might he have offered?",AMAZON.FallbackIntent,What_Friar_Question
+"Why does the Nurse disclose Juliet's secret to her parents later in the play, rather than continuing to back her?",Why_Nurse_Question,Why_Nurse_Question
+"What prompts the Nurse to reveal Juliet's secret to her parents later, instead of maintaining her support?",Why_Nurse_Question,Why_Nurse_Question
+"Why does the Nurse choose to expose Juliet's secret to her parents later in the play, as opposed to continuing to support her?",Why_Nurse_Question,Why_Nurse_Question
+"What motivates the Nurse to divulge Juliet's secret to her parents later, rather than continuing to stand by her?",Why_Nurse_Question,Why_Nurse_Question

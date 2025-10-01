@@ -1,0 +1,151 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "romeo bot",
+      "intents": [
+        {
+          "name": "Romeo_Metaphor_Juliet",
+          "slots": [],
+          "samples": [
+            "What metaphor does Romeo use to describe Juliet",
+            "Which metaphor does Romeo employ to characterize Juliet",
+            "What figurative comparison does Romeo use to describe Juliet",
+            "What metaphor does Romeo use to portray Juliet",
+            "When viewing Juliet what metaphor does Romeo use",
+            "How does Romeo describe Juliet metaphorically",
+            "What comparison does Romeo make about Juliet",
+            "Romeo's metaphor for Juliet"
+          ]
+        },
+        {
+          "name": "Juliet_Name_Request",
+          "slots": [],
+          "samples": [
+            "What request does Juliet make to Romeo regarding his identity",
+            "What does Juliet ask of Romeo concerning his identity",
+            "What inquiry does Juliet make to Romeo about who he is",
+            "What request regarding his name does Juliet pose to Romeo",
+            "What does Juliet demand to know from Romeo about his identity",
+            "What does Juliet ask Romeo about his name",
+            "Juliet's request about Romeo's name",
+            "What does Juliet want Romeo to do about his name"
+          ]
+        },
+        {
+          "name": "Friar_Marriage_Reason",
+          "slots": [],
+          "samples": [
+            "Why does Friar Laurence agree to help Romeo and Juliet marry",
+            "Why does Friar Laurence consent to assist Romeo and Juliet",
+            "What motivates Friar Laurence to agree to help Romeo and Juliet wed",
+            "Why does Friar Laurence decide to aid Romeo and Juliet in their marriage",
+            "What reason prompts Friar Laurence to agree to help Romeo and Juliet",
+            "Why does the Friar help with the marriage",
+            "Friar Laurence's motivation for helping",
+            "Why does Friar Laurence support their marriage"
+          ]
+        },
+        {
+          "name": "Tybalt_Insult_Romeo",
+          "slots": [],
+          "samples": [
+            "What insult does Tybalt hurl at Romeo",
+            "What offensive remark does Tybalt direct at Romeo",
+            "Which insult does Tybalt throw at Romeo",
+            "What disparaging term does Tybalt use against Romeo",
+            "What verbal abuse does Tybalt hurl at Romeo",
+            "How does Tybalt insult Romeo",
+            "What does Tybalt call Romeo",
+            "Tybalt's insult to Romeo"
+          ]
+        },
+        {
+          "name": "Mercutio_Death_Curse",
+          "slots": [],
+          "samples": [
+            "What curse does Mercutio utter before dying",
+            "What imprecation does Mercutio speak before he dies",
+            "Which curse does Mercutio pronounce as he is dying",
+            "What damnation does Mercutio utter in his final moments",
+            "What are Mercutio's final words",
+            "What curse does Mercutio say",
+            "Mercutio's dying curse",
+            "What does Mercutio curse before death"
+          ]
+        },
+        {
+          "name": "Romeo_Banishment_View",
+          "slots": [],
+          "samples": [
+            "How does Romeo view banishment compared to death",
+            "What is Romeo's opinion on banishment",
+            "How does Romeo feel about being banished",
+            "Romeo's reaction to banishment",
+            "What does Romeo think about exile",
+            "How does Romeo respond to banishment",
+            "Romeo's view on being exiled",
+            "What is Romeo's attitude toward banishment"
+          ]
+        },
+        {
+          "name": "General_Question",
+          "slots": [],
+          "samples": [
+            "Tell me about Romeo and Juliet",
+            "What is the story about",
+            "Who are the main characters",
+            "What happens in the play",
+            "Explain the plot",
+            "What are the themes",
+            "Tell me about the families",
+            "What is the conflict about",
+            "Why is it a tragedy",
+            "What is the moral of the story"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "that is all i needed thank you",
+            "nothing else thank you",
+            "bye",
+            "goodbye",
+            "stop",
+            "quit",
+            "exit",
+            "that will be all"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel",
+            "nevermind",
+            "forget it",
+            "cancel that"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help",
+            "what can you do",
+            "what are your capabilities",
+            "how can you help me",
+            "what questions can I ask",
+            "what do you know",
+            "help me",
+            "I need help",
+            "what can you tell me",
+            "what information do you have"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}

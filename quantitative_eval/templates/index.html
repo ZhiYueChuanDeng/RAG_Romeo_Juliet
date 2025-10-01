@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romeo & Juliet - Intelligent Q&A System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1em;
+            opacity: 0.9;
+        }
+
+        .mode-selector {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .mode-btn {
+            padding: 12px 30px;
+            margin: 0 10px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .mode-btn:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .mode-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .input-area {
+            margin-bottom: 20px;
+        }
+
+        .text-mode, .voice-mode {
+            display: none;
+        }
+
+        .text-mode.active, .voice-mode.active {
+            display: block;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid #e9ecef;
+            border-radius: 25px;
+            font-size: 1em;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus {
+            border-color: #667eea;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .voice-controls {
+            text-align: center;
+        }
+
+        .record-btn {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #dc3545;
+            color: white;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 5px 20px rgba(220, 53, 69, 0.4);
+            margin: 20px auto;
+            display: block;
+        }
+
+        .record-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 25px rgba(220, 53, 69, 0.5);
+        }
+
+        .record-btn.recording {
+            animation: pulse 1.5s infinite;
+            background: #ff4757;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .result-area {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            display: none;
+        }
+
+        .result-area.show {
+            display: block;
+        }
+
+        .question-box {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: white;
+            border-left: 4px solid #667eea;
+            border-radius: 8px;
+        }
+
+        .question-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .question-text {
+            font-size: 1.1em;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .answer-box {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+        }
+
+        .answer-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .type-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+
+        .type-known {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .type-inferred {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .type-out-of-kb {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .answer-text {
+            font-size: 1.1em;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .audio-player {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error {
+            padding: 15px;
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 8px;
+            color: #721c24;
+            margin-top: 15px;
+        }
+
+        .voice-hint {
+            text-align: center;
+            color: #666;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        .speaker-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5em;
+            color: #667eea;
+            transition: transform 0.2s;
+        }
+
+        .speaker-btn:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎭 Romeo & Juliet</h1>
+            <p>Intelligent Q&A System - Groundtruth-Based Retrieval</p>
+        </div>
+
+        <div class="mode-selector">
+            <button class="mode-btn active" onclick="switchMode('text')">
+                💬 Text Q&A
+            </button>
+            <button class="mode-btn" onclick="switchMode('voice')">
+                🎤 Voice Q&A
+            </button>
+        </div>
+
+        <div class="content">
+            <!-- Text Mode -->
+            <div class="text-mode active">
+                <div class="input-area">
+                    <div class="input-group">
+                        <input
+                            type="text"
+                            id="questionInput"
+                            placeholder="Enter a question about Romeo & Juliet..."
+                            onkeypress="handleKeyPress(event)"
+                        >
+                        <button class="btn" onclick="askQuestion()">Ask</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Voice Mode -->
+            <div class="voice-mode">
+                <div class="voice-controls">
+                    <button class="record-btn" id="recordBtn" onclick="toggleRecording()">
+                        🎤<br>Click to Record
+                    </button>
+                    <p class="voice-hint">Click button to start recording, click again to stop</p>
+                </div>
+            </div>
+
+            <!-- Loading Indicator -->
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Processing...</p>
+            </div>
+
+            <!-- Result Display -->
+            <div id="resultArea" class="result-area">
+                <div class="question-box">
+                    <div class="question-label">Question:</div>
+                    <div class="question-text" id="displayQuestion"></div>
+                </div>
+                <div class="answer-box">
+                    <div class="answer-label">
+                        <span>Answer:</span>
+                        <span class="type-badge" id="typeBadge"></span>
+                        <button class="speaker-btn" onclick="playAnswer()" title="Play Answer">
+                            🔊
+                        </button>
+                    </div>
+                    <div class="answer-text" id="displayAnswer"></div>
+                    <audio id="audioPlayer" class="audio-player" controls style="display: none;">
+                        <source id="audioSource" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <!-- Error Message -->
+            <div id="errorArea" class="error" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script>
+        let mediaRecorder;
+        let audioChunks = [];
+        let currentAudioId = null;
+        let currentAnswer = null;
+
+        // Switch mode
+        function switchMode(mode) {
+            // Update button state
+            document.querySelectorAll('.mode-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Switch display
+            document.querySelectorAll('.text-mode, .voice-mode').forEach(div => {
+                div.classList.remove('active');
+            });
+            document.querySelector(`.${mode}-mode`).classList.add('active');
+
+            // Clear results
+            hideResult();
+        }
+
+        // Handle Enter key
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                askQuestion();
+            }
+        }
+
+        // Text question
+        async function askQuestion() {
+            const question = document.getElementById('questionInput').value.trim();
+
+            if (!question) {
+                showError('Please enter a question');
+                return;
+            }
+
+            showLoading();
+            hideError();
+
+            try {
+                const response = await fetch('/api/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ question })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    showResult(data.question, data.answer, data.question_type);
+                    currentAnswer = data.answer;
+                } else {
+                    showError(data.error || 'Request failed');
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            } finally {
+                hideLoading();
+            }
+        }
+
+        // Voice recording
+        async function toggleRecording() {
+            const btn = document.getElementById('recordBtn');
+
+            if (!mediaRecorder || mediaRecorder.state === 'inactive') {
+                // Start recording
+                try {
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    mediaRecorder = new MediaRecorder(stream);
+                    audioChunks = [];
+
+                    mediaRecorder.ondataavailable = (event) => {
+                        audioChunks.push(event.data);
+                    };
+
+                    mediaRecorder.onstop = async () => {
+                        const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
+                        await sendVoiceQuestion(audioBlob);
+                    };
+
+                    mediaRecorder.start();
+                    btn.classList.add('recording');
+                    btn.innerHTML = '⏹<br>Stop Recording';
+                } catch (error) {
+                    showError('Cannot access microphone: ' + error.message);
+                }
+            } else {
+                // Stop recording
+                mediaRecorder.stop();
+                mediaRecorder.stream.getTracks().forEach(track => track.stop());
+                btn.classList.remove('recording');
+                btn.innerHTML = '🎤<br>Click to Record';
+            }
+        }
+
+        // Send voice question
+        async function sendVoiceQuestion(audioBlob) {
+            showLoading();
+            hideError();
+
+            const formData = new FormData();
+            formData.append('audio', audioBlob, 'recording.webm');
+
+            try {
+                const response = await fetch('/api/ask-voice', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    showResult(data.question, data.answer, data.question_type);
+                    currentAudioId = data.audio_id;
+
+                    // Auto-play voice answer
+                    setTimeout(() => {
+                        playVoiceAnswer(data.audio_id);
+                    }, 500);
+                } else {
+                    showError(data.error || 'Request failed');
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            } finally {
+                hideLoading();
+            }
+        }
+
+        // Play answer (text mode)
+        async function playAnswer() {
+            if (!currentAnswer) return;
+
+            showLoading();
+
+            try {
+                const response = await fetch('/api/tts', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ text: currentAnswer })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    playVoiceAnswer(data.audio_id);
+                } else {
+                    showError(data.error || 'TTS failed');
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            } finally {
+                hideLoading();
+            }
+        }
+
+        // Play voice answer
+        function playVoiceAnswer(audioId) {
+            const audioPlayer = document.getElementById('audioPlayer');
+            const audioSource = document.getElementById('audioSource');
+
+            audioSource.src = `/api/audio/${audioId}`;
+            audioPlayer.load();
+            audioPlayer.style.display = 'block';
+            audioPlayer.play();
+        }
+
+        // Show result
+        function showResult(question, answer, questionType) {
+            document.getElementById('displayQuestion').textContent = question;
+            document.getElementById('displayAnswer').textContent = answer;
+
+            const badge = document.getElementById('typeBadge');
+            badge.textContent = questionType;
+            badge.className = 'type-badge';
+
+            if (questionType === 'Known') {
+                badge.classList.add('type-known');
+            } else if (questionType === 'Inferred') {
+                badge.classList.add('type-inferred');
+            } else {
+                badge.classList.add('type-out-of-kb');
+            }
+
+            document.getElementById('resultArea').classList.add('show');
+            document.getElementById('audioPlayer').style.display = 'none';
+        }
+
+        // Hide result
+        function hideResult() {
+            document.getElementById('resultArea').classList.remove('show');
+            currentAnswer = null;
+            currentAudioId = null;
+        }
+
+        // Show loading
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+        }
+
+        // Hide loading
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        // Show error
+        function showError(message) {
+            const errorArea = document.getElementById('errorArea');
+            errorArea.textContent = message;
+            errorArea.style.display = 'block';
+        }
+
+        // Hide error
+        function hideError() {
+            document.getElementById('errorArea').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
