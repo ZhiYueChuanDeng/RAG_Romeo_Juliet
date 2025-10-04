@@ -456,6 +456,11 @@
             if (!mediaRecorder || mediaRecorder.state === 'inactive') {
                 // Start recording
                 try {
+                    // Check browser support
+                    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+                        throw new Error('Your browser does not support audio recording. Please use Chrome, Firefox, or Edge.');
+                    }
+
                     const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
                     mediaRecorder = new MediaRecorder(stream);
                     audioChunks = [];

@@ -28,7 +28,7 @@ app.config['UPLOAD_FOLDER'] = tempfile.gettempdir()
 
 # Initialize RAG system and Whisper model
 logger.info("Initializing intelligent RAG system...")
-rag_system = IntelligentRAGSystem(use_llm=False)
+rag_system = IntelligentRAGSystem(use_llm=True, llm_model="llama3.2")
 
 logger.info("Loading Whisper ASR model...")
 whisper_model = whisper.load_model("base")
